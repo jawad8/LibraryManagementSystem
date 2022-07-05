@@ -25,9 +25,7 @@ def fetchAllBooks(request):
 def addBook(request):
     try:
         reqData = request.data
-        print(reqData)
-        print("reqData")
-
+        
         return Response(True,status=201)
     except Exception as e:
         return Response(False,status=400)
