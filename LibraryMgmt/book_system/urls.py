@@ -6,5 +6,4 @@ urlpatterns = [
     path('addBooks/', views.addBook),
     path('updateBooks/', views.updateBook),
     path('deleteBooks/', views.deleteBook),
-
 ]
